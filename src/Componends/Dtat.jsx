@@ -37,7 +37,8 @@ export default function Dtat({ countryName }) {
           <p><span className=' fw-bold '>Capital:</span> {Data.capital}</p>
           <p><span className=' fw-bold '>TimeZone:</span>  {Data.timezones}</p>
 
-          <p><span className=' fw-bold '>Currencies: </span>{Object.values(Data.currencies)[0]?.name} (
+          <p><span className=' fw-bold '>Currencies: </span>
+          {Object.values(Data.currencies)[0]?.name} (
           {Object.values(Data.currencies)[0]?.symbol})</p>
 
           <p><span className=' fw-bold '>Continents:</span>  {Data.continents}</p>

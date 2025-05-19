@@ -27,7 +27,7 @@ export default function Dtat({ countryName }) {
         })
     },[countryName])
   return (
-    <div className="container mt-4 text-center border-1 shadow w-25">
+    <div className="container mt-4 text-center border-1 shadow  w-75 ">
       {error && <p className="text-danger">{error}</p>}
       {Data && Data.name && Data.name.common && (
         <>
